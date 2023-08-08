@@ -14,7 +14,7 @@ export default StyleSheet.create({
   },
   fieldIcon: {
     marginRight: 10,
-    textAlignVertical: "middle",
+    textAlignVertical: "center",
   },
 
   textInput: {

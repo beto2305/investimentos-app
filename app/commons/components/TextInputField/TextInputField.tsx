@@ -1,23 +1,17 @@
-import React, { PureComponent } from "react";
-import {
-  View,
-  Text,
-  TouchableOpacity,
-  TextInput,
-  KeyboardTypeOptions,
-} from "react-native";
+import React from "react";
+import { View, TextInput, KeyboardTypeOptions } from "react-native";
 
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 
 /**
  * Local Imports
  */
-import styles, { colors } from "./TextInputField.style";
+import styles from "./TextInputField.style";
 
 type TextInputFieldProps = {
   placeholder: string;
   fieldIcon: keyof typeof MaterialCommunityIcons.glyphMap;
-  onChangeText?(): void;
+  onChangeText?(string): void;
   keyboardType?: KeyboardTypeOptions;
   isPasswordField?: boolean | false;
 };

@@ -16,7 +16,7 @@ export default StyleSheet.create({
   },
   fieldIcon: {
     marginRight: 10,
-    textAlignVertical: "middle",
+    textAlignVertical: "center",
   },
   fieldLabel: { color: colors.primary, fontWeight: "600" },
   text: {

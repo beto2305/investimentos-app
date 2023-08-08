@@ -16,13 +16,13 @@ export default StyleSheet.create({
   fieldIcon: {
     marginRight: 10,
     marginLeft: 5,
-    textAlignVertical: "middle",
+    textAlignVertical: "center",
   },
 
   textInput: {
     flex: 1,
     paddingVertical: 0,
-    textAlignVertical: "middle",
+    textAlignVertical: "center",
     color: "#ccc",
     fontSize: 14,
     fontFamily: Platform.OS === "android" ? "Roboto" : "Avenir",
